@@ -62,14 +62,15 @@
     </div>
 <div class = 'container my = 4'>
   <h2 class = 'text-center'>List of Books</h2>
-  <select class="form-select" multiple aria-label="multiple select example">
+  {% comment %} <select class="form-select" multiple aria-label="multiple select example">
   <option selected>The Alchemist</option>
   <option value="1">Eleven Minutes</option>
   <option value="2">The Zahir</option>
-  <option value="3">Brida</option>
+  <option value="3">Brida</option> {% endcomment %}
+  <div> <span> {{result}} </span> </div>
 </select>
   </div>
-        </div>
+  </div>
   </main>
         
 {% endblock body%}
